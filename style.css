@@ -1,0 +1,284 @@
+:root{
+    --black:black;
+    --white:white;
+    --blue:#3498db;
+    --lightpink:#9aa09d;
+    --paleblue:#F0F4F8;
+    --logo_font_size:25px;
+    --nav_font_size:20px;
+    --section_heading_font_size:35px;
+    --sections_padding:5px;
+    --font_family:"Alegreya Sans",serif;
+    --section_padding:70px;
+    --section_main_content_size:28px;
+    --content_font_size:20px;
+}
+body{
+    margin:0%;
+    font-family: var(--font_family);
+}
+    
+#navigation
+{ 
+    background-color: var(--blue);
+    margin:0%;
+    overflow:hidden;
+    
+}
+#navigation a
+{
+    float:right;
+    display:block;
+    color:var(--white);
+    text-decoration:none;
+    padding: 15px;
+    padding-bottom:5px;
+    font-size:var(--nav_font_size);
+    
+}
+#navigation .logo
+{
+    float: left;
+    font-weight:bolder;
+    font-size:var(--logo_font_size);
+}
+
+#navigation a:hover
+{
+    background-color:var(--lightpink);
+    color:var(--black);
+    font-weight:bolder;
+}
+
+.sectionheading
+{
+    text-align:center;
+    font-weight:lighter;
+    font-size:var(--section_heading_font_size);
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.box
+{
+    float:left;
+    width: 50%;
+}
+
+.box .imagebuttonholder
+{
+
+    display: block;
+    text-align: center;
+}
+
+#aboutme
+{
+    padding:var(--sections_padding);
+    background-color:var(--white);
+    height:360px;
+}
+
+
+.box .imagebuttonholder #userimage
+{
+    width: 40%;
+}
+
+
+.box #introductionbox
+{
+    padding-right:var(--section_padding);
+}
+
+.box #introductionbox #hello
+{
+    font-size:var(--content_font_size);
+    font-weight:bold;
+    margin:0%;
+}
+
+.box #introductionbox #name
+{
+    font-size:var(--section_main_content_size);
+    font-weight:bolder;
+    margin:0%;
+    margin-top:20px;
+    margin-bottom: 20px ;
+}
+.box #introductionbox #content
+{
+    font-size:var(--content_font_size);
+    text-align: justify;
+    line-height:27px;
+    margin: 0%;
+    margin-top:10px;
+}
+
+.box #introductionbox #email
+{
+    font-size:18px;
+    margin:0%;
+    margin-top:10px;
+}
+
+#experience
+{
+    padding:var(--sections_padding);
+    background-color:var(--paleblue);
+    height:510px;
+}
+
+#experience #workdetails
+{
+    padding-left:var(--section_padding);
+    padding-right:var(--section_padding);
+}
+#experience #workdetails #company
+{
+    font-size:var(--section_main_content_size);
+    font-weight:bold;
+    margin-bottom:0px;
+}
+#experience #workdetails .subtags
+{
+    font-size:18px;
+    margin-top:1%;
+}
+#experience #workdetails #reponsibilites 
+{
+    font-size:var(--content_font_size);
+    text-align: justify;
+    line-height:27px;
+}
+
+#skills
+{
+    padding:var(--sections_padding);
+    background-color:var(--white);
+    height:340px;
+}
+#skills .skillscontainer
+{
+    text-align:center;
+}
+#skills  .skillscontainer .skill-image
+{
+    display:inline-block;
+    width:100px;
+    height: 100px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:30px;
+}
+#projects
+{
+    padding:var(--sections_padding);
+    background-color:var(--paleblue);
+    height:950px;
+}
+
+#project1
+{
+    width:70%;
+    height:238px;
+    padding-left:95px;
+    border-radius:10px;
+    
+}
+#project2
+{
+    width:70%;
+    height:238px;
+    padding-left:95px;
+    border-radius:10px;
+}
+.projectcontent
+{
+    padding-left:var(--section_padding);
+    padding-right:var(--section_padding);
+}
+.projectname
+{
+    font-size:var(--section_main_content_size);
+    font-weight:bold;
+    margin-bottom:0px;
+    text-align:center;
+}
+.projectdesc
+{
+    font-size:var(--content_font_size);
+    text-align: justify;
+    line-height:22px;
+}
+#education_achievements
+{
+    padding:var(--sections_padding);
+    background-color:var(--white);
+    height:320px;
+}
+
+#education .educationinfo
+{
+    padding-left:var(--section_padding);
+    padding-right:var(--section_padding);
+}
+
+#education .educationinfo .school
+{
+    font-size:var(--content_font_size);
+    font-weight:bold;
+    margin-bottom:0px;
+}
+
+#education .educationinfo .subtags
+{
+    font-size:18px;
+    text-align: justify;
+}
+
+#acievementslisting
+{
+    font-size:var(--content_font_size);
+    padding-left:var(--section_padding);
+    padding-right:var(--section_padding);
+    text-align: justify;
+    line-height:22px;
+}
+
+#contactme
+{
+    padding:var(--sections_padding);
+    background-color:var(--paleblue);
+    height:120px;
+}
+
+#contactdetails 
+{
+    text-align: center;
+}
+#contactdetails .contact-icon
+{
+    display: inline-block;
+    width:30px;
+    height: 30px;
+    padding-right:15px;
+    padding-left:15px;
+    padding-bottom:5px;
+}
+
+#scroll-to-top .scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #35424a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    display: block;
+}
+
